@@ -9,22 +9,22 @@ export default function Footer() {
             <h2 className="text-3xl md:text-5xl font-bold tracking-tight mb-4">
               Interested in <br />working together?
             </h2>
-            <a 
-              href="https://t.me/tidvn" 
-              target="_blank" 
+            <a
+              href="https://t.me/tidvn"
+              target="_blank"
               rel="noreferrer"
               className="inline-flex items-center gap-2 text-lg border-b-2 border-[#7c3aed] pb-1 hover:text-[#7c3aed] transition-colors font-medium"
             >
               Send Me a Message
             </a>
           </div>
-          
+
           <div className="flex flex-col gap-2 text-sm uppercase tracking-widest text-gray-500 font-semibold">
             <a href="https://facebook.com/tidpr2.5" target="_blank" rel="noreferrer" className="hover:text-[#7c3aed] transition-colors">Facebook</a>
             <a href="https://github.com/tidvn" target="_blank" rel="noreferrer" className="hover:text-[#7c3aed] transition-colors">GitHub</a>
           </div>
         </div>
-        
+
         <div className="flex justify-between items-center text-sm text-gray-500 font-mono">
           <p>© {new Date().getFullYear()} Tuan Ngo</p>
           <p>Based in Ha Noi</p>

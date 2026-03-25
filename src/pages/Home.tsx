@@ -18,7 +18,7 @@ export default function Home() {
           <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-400 max-w-lg leading-relaxed mb-10">
             I am a Creative Developer who is currently based in Ha Noi, Viet Nam.
           </p>
-          
+
           <div className="inline-flex items-center gap-2 bg-[#7c3aed] text-white px-6 py-3 rounded-full font-medium">
             <Code2 size={20} />
             Developer
@@ -31,9 +31,9 @@ export default function Home() {
           transition={{ duration: 0.8, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
           className="relative h-[600px] w-full max-w-md mx-auto md:ml-auto"
         >
-          <img 
-            src="https://picsum.photos/seed/tuan/800/1200" 
-            alt="Tuan Ngo" 
+          <img
+            src="https://picsum.photos/seed/tuan/800/1200"
+            alt="Tuan Ngo"
             className="object-cover w-full h-full rounded-[48px] shadow-2xl"
             referrerPolicy="no-referrer"
           />

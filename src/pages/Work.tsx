@@ -30,10 +30,10 @@ export default function Work() {
         transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
       >
         <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-16 text-gray-900 dark:text-white">Selected Work</h1>
-        
+
         <div className="flex flex-col">
           {projects.map((project, index) => (
-            <motion.div 
+            <motion.div
               key={project.id}
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}

@@ -33,11 +33,10 @@ export default function Navbar({ isDark, toggleTheme }: NavbarProps) {
             <Link
               key={link.path}
               to={link.path}
-              className={`px-6 py-2 rounded-full text-sm font-semibold transition-all duration-300 ${
-                location.pathname === link.path 
-                  ? 'bg-[#7c3aed] text-white shadow-md' 
+              className={`px-6 py-2 rounded-full text-sm font-semibold transition-all duration-300 ${location.pathname === link.path
+                  ? 'bg-[#7c3aed] text-white shadow-md'
                   : 'text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white'
-              }`}
+                }`}
             >
               {link.name}
             </Link>
@@ -93,9 +92,8 @@ export default function Navbar({ isDark, toggleTheme }: NavbarProps) {
                   key={link.path}
                   to={link.path}
                   onClick={() => setIsOpen(false)}
-                  className={`text-4xl font-bold tracking-tight transition-colors ${
-                    location.pathname === link.path ? 'text-[#7c3aed]' : 'text-gray-900 dark:text-white'
-                  }`}
+                  className={`text-4xl font-bold tracking-tight transition-colors ${location.pathname === link.path ? 'text-[#7c3aed]' : 'text-gray-900 dark:text-white'
+                    }`}
                 >
                   {link.name}
                 </Link>
@@ -124,5 +122,8 @@ export default function Navbar({ isDark, toggleTheme }: NavbarProps) {
         </AnimatePresence>
       </div>
     </header>
+  );
+}
+    </header >
   );
 }

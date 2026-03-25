@@ -27,7 +27,7 @@ export default function App() {
   return (
     <Router>
       <div className="min-h-screen bg-white dark:bg-[#0a0a0a] text-gray-900 dark:text-white font-sans flex flex-col selection:bg-[#7c3aed] selection:text-white transition-colors duration-300 relative overflow-hidden">
-        
+
         {/* Gradient Background */}
         <div className="absolute top-0 left-0 right-0 h-[900px] pointer-events-none -z-10 overflow-hidden">
           <div className="absolute -top-[10%] -left-[10%] w-[50%] h-[60%] rounded-full bg-[#fbcfe8] dark:bg-[#fbcfe8]/10 blur-[120px] opacity-80"></div>
@@ -46,5 +46,9 @@ export default function App() {
         <Footer />
       </div>
     </Router>
+  );
+}
+      </div >
+    </Router >
   );
 }
